@@ -1,35 +1,268 @@
-<!DOCTYPE html><html class="text-primary-emphasis" data-bs-theme="light" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><title>Dashboard - Ortelius</title><meta name="description" content="Beaming Ortelius Dashboard"><link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=97380e22c8933e9aa79cbc2390b9f15a"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="/assets/css/styles.min.css?h=54cf997cf6aba0005159097bed3b598a"></head><body id="page-top" style="color: var(--bs-emphasis-color);"><div id="wrapper"><nav class="navbar bg-primary-subtle align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 navbar-dark" style="background: linear-gradient(black, white), #00d021;color: var(aquamarine);"><div class="container-fluid d-flex flex-column p-0"><img class="rounded-circle img-fluid border-0 img-profile" src="/assets/img/avatars/Ortelius.png?h=d1ae728af14de60fa6a51b7b8937a29e" width="104" height="104"><hr class="sidebar-divider my-0"><ul class="navbar-nav text-light" id="accordionSidebar"><li class="nav-item"></li><li class="nav-item"><a class="nav-link" href="/index.html"><i class="fas fa-user"></i><span>Insights</span></a></li><li class="nav-item"><a class="nav-link active" href="/Summary.html"><i class="far fa-list-alt"></i><span>Summary</span></a></li><li class="nav-item"></li><li class="nav-item"></li><li class="nav-item"></li><li class="nav-item"></li><li class="nav-item"><a class="nav-link" href="/Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-filter-search">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-  <path d="M11.36 20.213l-2.36 .787v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414"></path>
-  <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-  <path d="M20.2 20.2l1.8 1.8"></path>
-</svg><span>Drilldown</span></a><a class="nav-link" href="/Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trending-up">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-  <path d="M3 17l6 -6l4 4l8 -8"></path>
-  <path d="M14 7l7 0l0 7"></path>
-</svg><span>Trends</span></a><a class="nav-link" href="/Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-activity-heartbeat">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-  <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5"></path>
-</svg><span>Risks</span></a><a class="nav-link" href="/Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-zoom-money" style="width: 15;height: 15;font-size: 57px;padding-bottom: 0px;margin-bottom: 0px;padding-right: 0px;">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-  <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
-  <path d="M21 21l-6 -6"></path>
-  <path d="M12 7h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"></path>
-  <path d="M10 13v1m0 -8v1"></path>
-</svg><span>Costs</span></a></li></ul><div class="text-center d-none d-md-inline"></div><button class="btn rounded-circle border-0" type="button" id="sidebarToggle"></button></div></nav><div class="d-flex flex-column" id="content-wrapper"><div id="content"><nav class="navbar navbar-expand bg-white shadow mb-4 topbar static-top navbar-light"><div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button><form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search"><div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..."><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div></form><ul class="navbar-nav flex-nowrap ms-auto"><li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a><div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown"><form class="me-auto navbar-search w-100"><div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..."><div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div></div></form></div></li><li class="nav-item dropdown no-arrow mx-1"><div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a><div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in"><h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#"><div class="me-3"><div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div></div><div><span class="small text-gray-500">December 12, 2019</span><p>A new monthly report is ready to download!</p></div></a><a class="dropdown-item d-flex align-items-center" href="#"><div class="me-3"><div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div></div><div><span class="small text-gray-500">December 7, 2019</span><p>$290.29 has been deposited into your account!</p></div></a><a class="dropdown-item d-flex align-items-center" href="#"><div class="me-3"><div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div></div><div><span class="small text-gray-500">December 2, 2019</span><p>Spending Alert: We've noticed unusually high spending for your account.</p></div></a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a></div></div></li><li class="nav-item dropdown no-arrow mx-1"><div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">7</span><i class="fas fa-envelope fa-fw"></i></a><div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in"><h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#"><div class="dropdown-list-image me-3"><img class="rounded-circle" src="/assets/img/avatars/avatar4.jpeg?h=fefb30b61c8459a66bd338b7d790c3d5"><div class="bg-success status-indicator"></div></div><div class="fw-bold"><div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div><p class="small text-gray-500 mb-0">Emily Fowler - 58m</p></div></a><a class="dropdown-item d-flex align-items-center" href="#"><div class="dropdown-list-image me-3"><img class="rounded-circle" src="/assets/img/avatars/avatar2.jpeg?h=5d142be9441885f0935b84cf739d4112"><div class="status-indicator"></div></div><div class="fw-bold"><div class="text-truncate"><span>I have the photos that you ordered last month!</span></div><p class="small text-gray-500 mb-0">Jae Chun - 1d</p></div></a><a class="dropdown-item d-flex align-items-center" href="#"><div class="dropdown-list-image me-3"><img class="rounded-circle" src="/assets/img/avatars/avatar3.jpeg?h=c5166867f10a4e454b5b2ae8d63268b3"><div class="bg-warning status-indicator"></div></div><div class="fw-bold"><div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div><p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p></div></a><a class="dropdown-item d-flex align-items-center" href="#"><div class="dropdown-list-image me-3"><img class="rounded-circle" src="/assets/img/avatars/avatar5.jpeg?h=35dc45edbcda6b3fc752dab2b0f082ea"><div class="bg-success status-indicator"></div></div><div class="fw-bold"><div class="text-truncate"><span>Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</span></div><p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p></div></a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a></div></div><div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div></li><div class="d-none d-sm-block topbar-divider"></div><li class="nav-item dropdown no-arrow"><div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small"><strong><span style="color: rgb(13, 255, 23);">Beaming Ortelius</span></strong></span><img class="border rounded-circle img-profile" src="/assets/img/avatars/Ortelius%20Avatar-Orbis.png?h=8ff2a416bc23733527e0a64fddc0e320" width="32" height="32"></a><div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-code fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Dev-X</a><a class="dropdown-item" href="#"><i class="fas fa-project-diagram fa-sm fa-fw me-2 text-gray-400"></i>Manager-X</a><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" class="fa-sm fa-fw me-2 text-gray-400"><path d="M0 0h24v24H0z" fill="none"></path><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path></svg>DevSecOps-X</a><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-alert-triangle-off fa-sm fa-fw me-2 text-gray-400">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-  <path d="M21.998 17.997a1.913 1.913 0 0 0 -.255 -.872l-8.106 -13.534a1.914 1.914 0 0 0 -3.274 0l-1.04 1.736m-1.493 2.493l-5.573 9.304a1.914 1.914 0 0 0 1.636 2.871h16.107"></path>
-  <path d="M12 16h.01"></path>
-  <path d="M3 3l18 18"></path>
-  <path d="M12 7v1"></path>
-</svg>Corporate-X</a><a class="dropdown-item" href="#"><i class="fas fa-street-view fa-sm fa-fw me-2 text-gray-400"></i>Executive-X</a></div></div></li></ul></div></nav><!-- Start: Stats Color --><div class="container py-4 py-xl-5"><div class="d-sm-flex justify-content-between align-items-center mb-4"><h3 class="text-dark mb-0"><strong><span style="color: rgb(13, 255, 23);">Ortelius Debrief</span></strong></h3><a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="#"><i class="fas fa-download fa-sm text-white-50"></i>&nbsp;Generate Report</a></div><div class="text-center text-white-50 bg-primary border rounded border-0 p-3"><div class="row row-cols-2 row-cols-md-4"><div class="col"><div class="p-3"><h4 class="display-5 fw-bold text-white mb-0" style="font-size: 35;">60<sub>min</sub></h4><p class="mb-0"><span style="color: rgb(255, 255, 255);">Lead Time</span></p></div></div><div class="col"><div class="p-3"><h4 class="display-5 fw-bold text-white mb-0">30<sub>min</sub></h4><p class="mb-0"><span style="color: rgb(255, 255, 255);">Cycle Time</span></p></div></div><div class="col"><div class="p-3"><h4 class="display-5 fw-bold text-white mb-0">45<sub>min</sub></h4><p class="mb-0"><span style="color: rgb(255, 255, 255);">MTBF</span></p></div></div><div class="col"><div class="p-3"><h4 class="display-5 fw-bold text-white mb-0">80<sub>min</sub></h4><p class="mb-0"><span style="color: rgb(255, 255, 255);">MTTR</span></p></div></div></div></div></div><!-- End: Stats Color --><div class="container-fluid"><!-- Start: Chart --><div class="row"><div class="col-lg-7 col-xl-6 col-xxl-5"><div class="card shadow mb-4"><div class="card-header d-flex justify-content-between align-items-center" style="padding: 9px 16px;"><h6 class="text-primary fw-bold m-0">Code Dependencies Trends</h6><div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button><div class="dropdown-menu shadow dropdown-menu-end animated--fade-in"><p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" href="#">&nbsp;Action</a><a class="dropdown-item" href="#">&nbsp;Another action</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">&nbsp;Something else here</a></div></div></div><div class="card-header py-3" style="margin-left: 19px;"><h4 class="small fw-bold">Level of Preparedness<span class="float-end">50%</span></h4><div class="progress mb-4">
-			<div class="progress-bar bg-success" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="visually-hidden">50%</span></div>
-		</div><h4 class="small fw-bold">Cybersecurity Awareness<span class="float-end">60%</span></h4><div class="progress mb-4">
-			<div class="progress-bar bg-success" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="visually-hidden">60%</span></div>
-		</div><h4 class="small fw-bold">Mean Time to Detect (MTTD)<span class="float-end">40%</span></h4><div class="progress mb-4">
-			<div class="progress-bar bg-primary" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="visually-hidden">40%</span></div>
-		</div><h4 class="small fw-bold">Intrusion Attempts<span class="float-end">20%</span></h4><div class="progress mb-4">
-			<div class="progress-bar bg-warning" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="visually-hidden">20%</span></div>
-		</div><h4 class="small fw-bold">Virus Infection Monitoring<span class="float-end">10%</span></h4><div class="progress mb-4">
-			<div class="progress-bar bg-info" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"><span class="visually-hidden">10%</span></div>
-		</div></div></div></div><div class="col-lg-5 col-xl-4 col-xxl-6"><div class="card shadow mb-4"><div class="card-header d-flex justify-content-between align-items-center"><h6 class="text-primary fw-bold m-0">Threat Model</h6><div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button><div class="dropdown-menu shadow dropdown-menu-end animated--fade-in"><p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" href="#">&nbsp;Action</a><a class="dropdown-item" href="#">&nbsp;Another action</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">&nbsp;Something else here</a></div></div></div><div class="card-body" style="padding-bottom: 32px;margin-top: -18px;margin-left: -5px;"><div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;radar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Incident&quot;,&quot;MTTD&quot;,&quot;MTTR&quot;,&quot;Attack&quot;,&quot;Risk&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;S1&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;65&quot;,&quot;59&quot;,&quot;90&quot;,&quot;81&quot;,&quot;86&quot;],&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;rgb(78,101,223)&quot;},{&quot;label&quot;:&quot;S2&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;28&quot;,&quot;36&quot;,&quot;19&quot;,&quot;27&quot;,&quot;50&quot;,&quot;&quot;],&quot;borderColor&quot;:&quot;rgb(40,179,112)&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;]},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div></div></div></div></div><!-- End: Chart --></div></div><footer class="text-dark-emphasis bg-body-tertiary bg-gradient sticky-footer"><div class="container my-auto"><div class="text-center my-auto copyright"><span class="text-dark">Copyright © Ortelius 2024</span></div></div></footer></div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a></div><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script><script src="/assets/js/script.min.js?h=bdf36300aae20ed8ebca7e88738d5267"></script></body></html>
+<!DOCTYPE html>
+<html class="text-primary-emphasis" data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - Ortelius</title>
+    <meta name="description" content="Beaming Ortelius Dashboard">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=97380e22c8933e9aa79cbc2390b9f15a">
+    <link rel="stylesheet" href="assets/css/Nunito.css?h=72e0eb135e82ab8c496f3f00737c0c4e">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/bs-theme-overrides.css?h=6af45fef411b440731ffddba56d41fb5">
+    <link rel="stylesheet" href="assets/css/Data-Table-with-Search-Sort-Filter-and-Zoom-using-TableSorter.css?h=67b4d635e0d3aab77be0fbd20669ce1b">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/css/theme.bootstrap_4.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css?h=1f7851fd0518f587e39c14026a55783f">
+</head>
+
+<body id="page-top" style="color: var(--bs-emphasis-color);">
+    <div id="wrapper">
+        <nav class="navbar bg-primary-subtle align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 navbar-dark" style="background: linear-gradient(black, white), #00d021;color: var(aquamarine);">
+            <div class="container-fluid d-flex flex-column p-0"><img class="rounded-circle img-fluid border-0 img-profile" src="assets/img/avatars/Ortelius.png?h=d1ae728af14de60fa6a51b7b8937a29e" width="104" height="104">
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-user"></i><span>Insights</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="Summary.html"><i class="far fa-list-alt"></i><span>Summary</span></a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-filter-search">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M11.36 20.213l-2.36 .787v-8.5l-4.48 -4.928a2 2 0 0 1 -.52 -1.345v-2.227h16v2.172a2 2 0 0 1 -.586 1.414l-4.414 4.414"></path>
+                                <path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                <path d="M20.2 20.2l1.8 1.8"></path>
+                            </svg><span>Drilldown</span></a><a class="nav-link" href="Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trending-up">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 17l6 -6l4 4l8 -8"></path>
+                                <path d="M14 7l7 0l0 7"></path>
+                            </svg><span>Trends</span></a><a class="nav-link" href="Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-activity-heartbeat">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 12h4.5l1.5 -6l4 12l2 -9l1.5 3h4.5"></path>
+                            </svg><span>Risks</span></a><a class="nav-link" href="Drilldown.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-zoom-money" style="width: 15;height: 15;font-size: 57px;padding-bottom: 0px;margin-bottom: 0px;padding-right: 0px;">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+                                <path d="M21 21l-6 -6"></path>
+                                <path d="M12 7h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"></path>
+                                <path d="M10 13v1m0 -8v1"></path>
+                            </svg><span>Costs</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"></div><button class="btn rounded-circle border-0" type="button" id="sidebarToggle"></button>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-expand bg-white shadow mb-4 topbar static-top navbar-light">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..."><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                        </form>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                    <form class="me-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                                <p>A new monthly report is ready to download!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                                <p>$290.29 has been deposited into your account!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                                <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">7</span><i class="fas fa-envelope fa-fw"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar4.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
+                                                <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar2.jpeg">
+                                                <div class="status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>I have the photos that you ordered last month!</span></div>
+                                                <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar3.jpeg">
+                                                <div class="bg-warning status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div>
+                                                <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="avatars/avatar5.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</span></div>
+                                                <p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small"><strong><span style="color: rgb(13, 255, 23);">Beaming Ortelius</span></strong></span><img class="border rounded-circle img-profile" src="assets/img/avatars/Ortelius%20Avatar-Orbis.png?h=8ff2a416bc23733527e0a64fddc0e320" width="32" height="32"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-code fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Dev-X</a><a class="dropdown-item" href="#"><i class="fas fa-project-diagram fa-sm fa-fw me-2 text-gray-400"></i>Manager-X</a><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" class="fa-sm fa-fw me-2 text-gray-400">
+                                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"></path>
+                                            </svg>DevSecOps-X</a><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-alert-triangle-off fa-sm fa-fw me-2 text-gray-400">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M21.998 17.997a1.913 1.913 0 0 0 -.255 -.872l-8.106 -13.534a1.914 1.914 0 0 0 -3.274 0l-1.04 1.736m-1.493 2.493l-5.573 9.304a1.914 1.914 0 0 0 1.636 2.871h16.107"></path>
+                                                <path d="M12 16h.01"></path>
+                                                <path d="M3 3l18 18"></path>
+                                                <path d="M12 7v1"></path>
+                                            </svg>Corporate-X</a><a class="dropdown-item" href="#"><i class="fas fa-street-view fa-sm fa-fw me-2 text-gray-400"></i>Executive-X</a></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav><!-- Start: Stats Color -->
+                <div class="container py-4 py-xl-5">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0"><strong><span style="color: rgb(13, 255, 23);">Ortelius Debrief</span></strong></h3><a class="btn btn-primary btn-sm d-none d-sm-inline-block" role="button" href="#"><i class="fas fa-download fa-sm text-white-50"></i>&nbsp;Generate Report</a>
+                    </div>
+                    <div class="text-center text-white-50 bg-primary border rounded border-0 p-3">
+                        <div class="row row-cols-2 row-cols-md-4">
+                            <div class="col">
+                                <div class="p-3">
+                                    <h4 class="display-5 fw-bold text-white mb-0" style="font-size: 35;">60<sub>min</sub></h4>
+                                    <p class="mb-0"><span style="color: rgb(255, 255, 255);">Lead Time</span></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="p-3">
+                                    <h4 class="display-5 fw-bold text-white mb-0">30<sub>min</sub></h4>
+                                    <p class="mb-0"><span style="color: rgb(255, 255, 255);">Cycle Time</span></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="p-3">
+                                    <h4 class="display-5 fw-bold text-white mb-0">45<sub>min</sub></h4>
+                                    <p class="mb-0"><span style="color: rgb(255, 255, 255);">MTBF</span></p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="p-3">
+                                    <h4 class="display-5 fw-bold text-white mb-0">80<sub>min</sub></h4>
+                                    <p class="mb-0"><span style="color: rgb(255, 255, 255);">MTTR</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End: Stats Color -->
+                <div class="container-fluid">
+                    <!-- Start: Chart -->
+                    <div class="row">
+                        <div class="col-lg-7 col-xl-6 col-xxl-5">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center" style="padding: 9px 16px;">
+                                    <h6 class="text-primary fw-bold m-0">Code Dependencies Trends</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" href="#">&nbsp;Action</a><a class="dropdown-item" href="#">&nbsp;Another action</a>
+                                            <div class="dropdown-divider"></div><a class="dropdown-item" href="#">&nbsp;Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-header py-3" style="margin-left: 19px;">
+                                    <h4 class="small fw-bold">Level of Preparedness<span class="float-end">50%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-success" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="visually-hidden">50%</span></div>
+                                    </div>
+                                    <h4 class="small fw-bold">Cybersecurity Awareness<span class="float-end">60%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-success" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="visually-hidden">60%</span></div>
+                                    </div>
+                                    <h4 class="small fw-bold">Mean Time to Detect (MTTD)<span class="float-end">40%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-primary" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="visually-hidden">40%</span></div>
+                                    </div>
+                                    <h4 class="small fw-bold">Intrusion Attempts<span class="float-end">20%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-warning" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="visually-hidden">20%</span></div>
+                                    </div>
+                                    <h4 class="small fw-bold">Virus Infection Monitoring<span class="float-end">10%</span></h4>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar bg-info" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"><span class="visually-hidden">10%</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-xl-4 col-xxl-6">
+                            <div class="card shadow mb-4">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <h6 class="text-primary fw-bold m-0">Threat Model</h6>
+                                    <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
+                                        <div class="dropdown-menu shadow dropdown-menu-end animated--fade-in">
+                                            <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" href="#">&nbsp;Action</a><a class="dropdown-item" href="#">&nbsp;Another action</a>
+                                            <div class="dropdown-divider"></div><a class="dropdown-item" href="#">&nbsp;Something else here</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding-bottom: 32px;margin-top: -18px;margin-left: -5px;">
+                                    <div class="chart-area"><canvas data-bss-chart="{&quot;type&quot;:&quot;radar&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Incident&quot;,&quot;MTTD&quot;,&quot;MTTR&quot;,&quot;Attack&quot;,&quot;Risk&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;S1&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;65&quot;,&quot;59&quot;,&quot;90&quot;,&quot;81&quot;,&quot;86&quot;],&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;rgb(78,101,223)&quot;},{&quot;label&quot;:&quot;S2&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;28&quot;,&quot;36&quot;,&quot;19&quot;,&quot;27&quot;,&quot;50&quot;,&quot;&quot;],&quot;borderColor&quot;:&quot;rgb(40,179,112)&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false,&quot;labels&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;}},&quot;title&quot;:{&quot;fontStyle&quot;:&quot;normal&quot;},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;]},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;fontStyle&quot;:&quot;normal&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End: Chart -->
+                </div>
+            </div>
+            <footer class="text-dark-emphasis bg-body-tertiary bg-gradient sticky-footer">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span class="text-dark">Copyright © Ortelius 2024</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script src="assets/js/bs-init.js?h=e2b0d57f2c4a9b0d13919304f87f79ae"></script>
+    <script src="assets/js/Data-Table-with-Search-Sort-Filter-and-Zoom-using-TableSorter-tablesortermain.js?h=0b5112c06ff3094624f33df374e70be1"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/jquery.tablesorter.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-filter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.2/js/widgets/widget-storage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/theme.js?h=d500b6726b3087682a7cecb1757a2700"></script>
+</body>
+
+</html>
